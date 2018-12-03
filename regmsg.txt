@@ -1,0 +1,523 @@
+This is a POLYGLOT source message file. It is compiled together
+with the same name .h file. Everything which does not start with
+a #, * or digit is a ignored (comment).
+
+*S_LICLIST1
+12
+#en "single user"
+#dk "enkelt bruger"
+#pl "pojedyncza"
+
+*S_LICLIST2
+12
+#en "site"
+#dk "site"
+#pl "miejscowa"
+
+*S_LICLIST3
+12
+#en "world-wide"
+#dk "world-wide"
+#pl "swiatowa"
+
+*S_YOUR_NAME_HERE
+40
+#en "Your name here"
+#dk "Dit navn her"
+#pl "Twoje nazwisko"
+
+*S_EMAILNAME
+40
+#en "emailname@company.domain"
+#dk "emailnavn@company.domain"
+#pl "email@firma.domena"
+
+
+*S_ANYADDRESS
+80
+#en "1234 Anystreet\r\nAnytown\r\nAnyCountry, 567abc890"
+#dk "Gadenavn 1234\r\nDk-1234 Bynavn\r\nDenmark"
+#pl "ul. Nieznana 12/34\r\n12-345 Miasto\r\nKraj"
+
+
+*S_CHECKADDR
+! This should be exactly as the beginning of S_ANYADDRESS
+60
+#en "1234 Anystreet"
+#dk "Gadenavn 1234"
+#pl "ul. Nieznana 12/34"
+
+
+*S_FILLINFO
+1024
+#en "Please fill this form out with your name, address and email address, "
+"then select which products or services you want to buy. Whenever possible, "
+"please provide your email address - this will speed up your service "
+"significantly. Under \"Payment Details\" select the payment "
+"method.\n\n"
+"If you choose to use your credit card, REGISTER will encode "
+"its number for better security, no matter if you send it on "
+"paper, by fax or email. When all the information is entered, press "
+"the [Next... >>] button to print, fax or email your order.\n\n"
+"Click OK button now to continue."
+
+#dk "Udfyld venligst denne formular med dit navn, adresse samt evt. e-mail"
+#dk "adresse. Vælg dernæst hvilket produkt du vil købe. Hvis du har en"
+#dk "e-mail adresse, er det vigtigt at du udfylder feltet, idet din ordre da vil"
+#dk "blive behandlet hurtigere. Til sidst vælger du betalingsmetode under"
+#dk "punktet \"Betalings detaljer\".\n\n"
+#dk "Hvis du vælger at benytte kredit kort, vil nummeret blive kodet for størst"
+#dk "mulig sikkerhed. Dette sker uanset om du vælger at sende ordren på"
+#dk "papir, fax eller e-mail. Når alt information er udfyldt, vælges [Videre....>>]"
+#dk "knappen for at printe, fax'e eller e-maile din ordre.\n\n"
+#dk "Klik på OK for at fortsætte nu."
+
+#pl "Prosze wypelnij ten formularz podajac nazwisko, adres i adres elektroniczny. "
+#pl "Nastepnie wybierz produkty lub uslugi, ktore kupujesz. O ile mozliwe, "
+#pl "prosze podaj swoj adres elektroniczny - przyspieszy to Twoja obsluge. "
+#pl "W ramce \"Forma Platnosci\" wybierz, w jaki sposob chcesz zaplacic.\n\n"
+#pl "Jesli zdecydujesz sie uzyc karty kredytowej, REGISTER zaszyfruje jej "
+#pl "numer dla bezpieczenstwa, niezaleznie czy wyslesz rejestracje na "
+#pl "papierze, faksem czy elektronicznie. Kiedy wszystko wprowadzisz, "
+#pl "nacisnij klawisz "Nastepnie >>". Bedziesz mogl wowczas zamowienie "
+#pl "wydrukowac, wyslac faksem lub poczta elektroniczna.\n\n"
+#pl "Nacisnij na OK aby kontynuowac."
+
+
+*S_RECEIPT_MSG
+1024
+#en "By checking the \"Paper Receipt\" field you requested a postcard receipt "
+"at additional cost. You will always receive a free e-mail receipt if you "
+"provide a valid e-mail address."
+
+#dk "Ved at checke \"Papir Kvitering\" feltet har du bedt om en kvitering via"
+#dk "post mod ekstrabetaling. Du vil dog altid modtage en e-mail kvitering"
+#dk "hvis du har indtastet en korrekt e-mail adresse."
+
+#pl "Wybrales potwierdzenie wplaty za pomoca kartki pocztowej. To kosztuje "
+"dodatkowo. Jesli podales adres elektroniczny, otrzymasz zawsze darmowe "
+"potwierdzenie wplaty w formie elektronicznej."
+
+*S_TYPE_NUMBER
+256
+#en "Please type a number in this field, e.g. 1, 2, 5..."
+#dk "Indtast venligst et nummer i dette felt, f.eks. 1, 2, 5..."
+#pl "Prosze wpisac w to pole number, np. 1, 2, 5..."
+
+*S_OPTIONAL
+16
+#en "(optional)"
+#dk "(valgfri)"
+#pl "(opcjonalny)"
+
+
+*S_REQUIRED
+16
+#en "(required)"
+#dk "(påkrævet)"
+#pl "(wymagany)"
+
+
+*S_CURRENCY
+9
+#en "Currency:"
+#dk "Valuta"
+#pl "Waluta:"
+
+
+*S_CASH_INFO
+1024
+#en ""
+"Please press [Next... >>] button to print this form out and include "
+"it with your cash wrapped in paper to make it less obvious and "
+"send it to \"%s\""
+
+#dk "Tryk [Videre....>>] for at udprinte denne formular. Brug derefter"
+#dk "papiret til at indpakke pengesedl"
+#dk ""
+#dk ""
+#dk ""
+#dk ""
+
+#pl ""
+"Prosze nacisnac [Nastepnie >>] aby wydrukowac zamowienie, ktore "
+"nalezy wyslac wraz z gotowka owinieta w papier do \"%s\""
+
+
+*S_LCHECK_INFO
+1024
+#en "Please use this option only if you live in the USA. "
+"Please press [Next... >>] button to print this form out and "
+"include it with your check "
+"or money order made payable to \"%s\"."
+
+#pl "Prosze uzywac tej opcji tylko jesli mieszka sie w USA. "
+"Prosze nacisnac [Nastepnie >>] aby wydrukowac zamowienie, ktore "
+"nalezy wyslac wraz z czekiem lub przekazem pocztowym wypisanym "
+"dla \"%s\"."
+
+
+*S_CHECK_INFO
+1024
+#en "Please press [Next... >>] button to print this form out and "
+"include it with your check or money order made payable to \"%s\"."
+
+#pl "Prosze nacisnac [Nastepnie >>] aby wydrukowac zamowienie, ktore "
+"nalezy wyslac wraz z czekiem lub przekazem pocztowym wypisanym "
+"dla \"%s\"."
+
+
+*S_INVC_INFO
+1024
+#en "Please press [Next... >>] button to print this invoice, then "
+"approve the invoice and submit it to your Purchasing Department for payment."
+
+#pl "Prosze nacisnac [Nastepnie >>] aby wydrukowac zamowienie, ktore "
+"nalezy przedstawic do aprobaty i przedlozyc w dziale zaopatrzenie do "
+"zaplacenia."
+
+
+*S_CARD_NAME
+20
+#en "Card Holder's &Name:"
+#pl "&Nazwisko:"
+
+
+*S_FV_ID
+20
+#en "First Virtual ID:"
+#pl "Id. First Virtual:"
+
+
+*S_FV_INFO
+160
+#en "For more information about First Virtual send email to <help@fv.com>."
+#pl "Po dodatkowe informacje o First Virtual wyslij email do <help@fv.com>."
+
+
+*S_CANT_OPEN_CLIP
+80
+#en "Cannot open the Clipboard"
+#pl "Nie moge otworzyc \"clipboard\""
+
+
+*S_CANT_EMPTY_CLI
+80
+#en "Cannot empty the Clipboard"
+#pl "Nie moge oproznic \"clipboard\""
+
+
+*S_CANT_SET_CLIP
+80
+#en "Unable to set Clipboard data"
+#pl "Nie moge wpisac tekstu do \"clipboard\""
+
+
+*S_PRINT_ERROR
+80
+#en "Error in printing, can't continue."
+#pl "Blad podczas drukowania, kontynuacja niemozliwa."
+
+
+*S_ERROR_TITLE
+20
+#en "Error"
+#pl "Blad"
+
+
+*S_WARN_TITLE
+20
+#en "Warning"
+#pl "Ostrzezenie"
+
+*S_QUIT_MSG
+80
+#en "Do you want to quit?"
+#pl "Czy chcesz zakonczyc program REGISTER?"
+
+
+*S_CANT_OPEN_FILE
+80
+#en "Could not open file \"%s\"."
+#pl "Nie moge otworzyc pliku \"%s\""
+
+
+*S_OPEN_VERS_ERR
+256
+#en "The file your are trying to open was not created with the same version "
+" of REGISTER."
+
+#pl "Plik ktory chcesz otworzyc nie byl zapisany przez ta sama wersje "
+"programu REGISTER."
+
+
+*S_REGIS_FILES
+40
+#en "Register Files (*.rgs) | *.rgs ||"
+#pl "Pliki Register (*.rgs) | *.rgs ||"
+
+
+*S_TEXT_FILES
+40
+#en "Text Files (*.txt) | *.txt ||"
+#pl "Pliki tekstowe (*.txt) | *.txt ||"
+
+
+*S_BIN_SAVED_INFO
+1024
+#en ""
+"Your registration was saved to the \"%s\" file. To print or fax this "
+"file out later, load it again into the same version of REGISTER "
+"and select [Next >>], then [PRINT] button.\r\n\r\n"
+"If you need to take this file to another machine for printing, "
+"faxing or mailing, please copy this REGISTER program with it, "
+"then start it on that machine and open the file you just saved.\r\n\r\n"
+"DO NOT SEND THIS FILE TO US!!! IF YOU MUST SEND A FILE, CHOOSE "
+"'SAVE as a text file'."
+#pl ""
+"Rejestracje zapisano w pliku \"%s\". Aby wydrukowac lub faksowac "
+"ten plik pozniej, zaladuj go spowrotem w ta sama wersje programu "
+"REGISTER i nacisnij [Nastepnie >>], potem [DRUKUJ].\r\n\r\n"
+"Jesli chcesz zabrac ten plik na inna maszyne w celu drukowania, "
+"faksowania lub wyslania przez email, prosze skopiuj rowniez ten "
+"program REGISTER, nastepnie wystartuj go na tamtej maszynie i "
+"otworz plik, ktory wlasnie zapisales.\r\n\r\n"
+"NIE WYSYLAJ TEGO PLIKU DO NAS!!! JESLI MUSISZ WYSLAC PLIK, WYBIERZ "
+"FORMAT TEKSTOWY!"
+
+
+*S_TXT_SAVED_INFO
+1024
+#en ""
+"Your registration was saved to \"%s\" file. Please copy later "
+"the contents of this file into an e-mail message and mail according "
+"to the instructions in the body of that message."
+#pl ""
+"Rejestracje zapisano w pliku \"%s\". Prosze pozniej skopiowac "
+"zawartosc tego pliku do tresci listu elektronicznego i wyslac go "
+"zgodnie z instrukcja w tresci tego listu."
+
+
+*S_BONUS_LBL
+14
+#en "Bonus US$:"
+#pl "Dodatek US$:"
+
+
+*S_SING_USER_LBL
+24
+! The @ sign must remail here
+#en "Single User @US$???"
+#pl "Licencji po @US$???"
+
+
+*S_SITE_LIC_FRM
+22
+#en "Site Lic. US$%-10.2f"
+#pl "Lic.miejsc.US$%-10.2f"
+
+
+*S_WORLD_LIC_FRM
+30
+#en "World-wide Lic. US$%-10.2f"
+#pl "Lic. swiatowa US$%-10.2f"
+
+
+*S_FILL_ADDR
+256
+#en "You did not fill the required postal address field. Please fill it in now."
+#pl "Nie podales swojego adresu. Prosze wpisz go teraz."
+
+
+*S_FILL_EM_ADD
+256
+#en "Either a valid email address or postal address is required. "
+"Please fill in the missing fields now."
+#pl "Wymagany jest wazny adres pocztowy lub elektroniczny. "
+"Prosze wpisac przynajmniej jeden z nich."
+
+
+*S_ADDR_WARN
+1024
+#en "Without an email address nor the request for a receipt, you will not "
+"be notified that your payment was received (except possibly on your "
+"bank statement). It's OK with us but you need to be aware of this. "
+"Would you like to correct this?"
+
+#pl "Jesli nie podasz adresu elektronicznego i nie zadasz drukowanego "
+"potwierdzenia wplaty, nie bedziesz powiadomiony ze otrzymalismy Twoja "
+"wplate. Dla nas nie stanowi to przeszkody, ale powinienes zdawac sobie "
+"z tego sprawe. Czy chcialbys cos zmienic?"
+
+
+*S_FV_TOKEN_WARN
+256
+#en "When paying with your First Virutal account you should supply the token. "
+"Would you like to correct this?"
+#pl "Placac poprzez First Virtual powinienes podac swoj identyfikator. "
+"Czy chcesz wpisac go teraz?"
+
+
+*S_NOSEL_ERR
+256
+#en "If you don't select any products to register, there is no need "
+"to send this form."
+#pl "Jesli nie wybierzesz zadnych produktow do rejestracji, nie ma "
+"potrzeby wysylania tego formularza."
+
+*S_TOTAL_PAY
+80
+#en "You are paying US$ %-10.2f"
+#pl "Placisz US$ %-10.2f"
+
+
+*S_DOT_SURE
+80
+#en ". Are you sure this is what you want?"
+#pl ". Czy na pewno ta suma jest poprawna?"
+
+
+*S_NONAME_WARN
+256
+#en "You did not fill the \"Register To:\" name. Would you like to fill it?"
+#pl "Nie wypelniles pola "\Rejestruj dla:\". Czy chcesz wypelnic je teraz?"
+
+
+*S_EMFORM_WARN
+256
+#en "Your e-mail address \"%s\" appears to be invalid. It should be something "
+"like \"name@company.domain\". Would you like to correct it?"
+#pl "Twoj adres elektroniczny \"%s\" wydaje sie byc niewazny. Powinien on "
+"wygladac jak \"email@firma.domena\". Czy chcesz go poprawic?"
+
+
+*S_CC_NAME_WARN
+256
+#en "When paying with a credit card you should provide a name that appears "
+"on this card. Would you like to correct this?"
+#pl "Placac karta kredytowa powinienes podac nazwisko ktore jest na niej "
+"wydrukowane. Czy chcesz wpisac je teraz?"
+
+
+*S_INV_CC_NUM1
+256
+#en "Your credit card number \"%s\" seems to have incorrect "
+"number of digits, or is not of the chosen type. Would you like to correct it?"
+#pl "Numer karty kredytowej \"%s\" wydaje sie miec zla ilosc cyfr lub byc "
+"karta innego typu niz podales. Czy chcesz cos poprawic?"
+
+
+*S_INV_CC_NUM2
+256
+#en "Your credit card number \"%s\" does not appear to be "
+"a valid number. Would you like to correct it?"
+#pl "Numer karty kredytowej \"%s\" wydaje sie byc niepoprawny. "
+"Czy chcesz go skorygowac?"
+
+
+*S_CC_EXPIRY_ERR
+256
+#en "Your expiry %s appears to have already passed. Would you like to correct it?"
+#pl "Data waznosci karty %s wydaje sie niewazna. Czy chcesz ja poprawic?"
+
+
+*S_PRINT_NOW
+70
+#en "Please &PRINT the registration form now"
+#pl "&WYDRUKUJ formularz rejestracji teraz"
+
+
+*S_SAVE_BIN
+70
+#en "I will print it later, please SAVE as a &binary file"
+#pl "Wydrukuje pozniej, zachowaj jako plik &binarny"
+
+
+*S_PAY_PAPER
+256
+#en "Since you are using the payment method that requires sending "
+"of paper documents, you should print the registration form and mail it "
+"using the postal service. Thank you!"
+#pl "Poniewaz sposob placenia jaki wybrales wymaga wyslania dokumentow "
+"papierowych, powinienies wydrukowac formularz rejestracji i wyslac go "
+"poczta. Dziekujemy!"
+
+
+*S_PRINT_FAX_NOW
+70
+#en "Please &PRINT or fax the registration form now"
+#pl "&WYDRUKUJ lub faksuj formularz rejestracji teraz"
+
+
+*S_SAVE_BIN2
+70
+#en "I will print or fax it later, please SAVE as a &binary file"
+#pl "Wydrukuje lub wysle faksem pozniej, zachowaj jako plik &binarny"
+
+
+*S_PAY_ELEC
+512
+#en "Since you are using the payment method that does not require sending "
+"of paper documents, you have a choice of sending it over Email, faxing, "
+"or printing and using the postal service."
+
+#pl "Poniewaz sposob placenia jaki wybrales nie wymaga wyslania dokumentow "
+"papierowych, mozesz wyslac rejestracje poczta elektroniczna, faksem, lub "
+"wydrukowac formularz i przeslac poczta tradycyjna."
+
+
+*S_ENCRYPT_INF
+512
+#en "If you use a credit card, this program encrypts your credit card number. "
+"While this greatly reduces the risk of unauthorized "
+"use, it is by no means considered 100% secure. "
+"This warning applies to FAX and regular mail as "
+"well as E-mail."
+
+#pl "Niniejszy program szyfruje numer Twojej karty kredytowej. "
+"W ten sposob niebezpieczenstwo naduzyc jest znacznie zmniejszone, "
+"nie mozna go jednak uwazac za 100% bezpieczny. Ostrzezenie to "
+"odnosi sie zarowno do faksow i poczty papierowej, jak i elektronicznej."
+
+
+*S_SAVED_CLIP
+256
+#en "Your registration was saved to clipboard. "
+"Please switch to your email window now, open a new message, "
+"click into an area where you would type the text and select "
+"Edit/Paste from the menu. Then address and send the message %s"
+#pl "Twoja rejestracja zostala przeniesiona do \"clipboard\". "
+"Prosze wstawic ja do listu elektronicznego i wyslac %s."
+
+
+*S_ADDR_INBODY
+80
+#en "according to the instructions in the body of that message."
+#pl "zgodnie z instrukcja w tresci tego listu."
+
+
+*S_EMAIL_TO
+20
+#en "to: \n\n\t"
+#pl "do: \n\n\t"
+
+
+*S_NL_THANKYOU
+20
+#en "\n\nThank you!"
+#pl "\n\nDziekujemy!"
+
+
+*S_PLS_QUANTITY
+256
+#en "To change the amount for this item, please type a number "
+"in the leftmost column under \"Quantity\" instead."
+#pl "Prosze wpisac ilosc w kolumnie po lewej stronie."
+
+*S_NOKWFILE
+256
+#en "Please start this Register application from within the program "
+"you are registering."
+#pl "Prosze uruchomic Rejestracje bezposrednio z programu, "
+"ktory panstwo chca zarejestrowac"
+
