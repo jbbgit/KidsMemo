@@ -6,4 +6,7 @@ The .exe should run in WIN10.
 Use the UnLock program to try the game. 
 Use the source as you whish.
 
-![alt text](https://raw.githubusercontent.com/jbbgit/KidsMemo/master/snap48.jpg)
+<p align="center">
+  <img src="/img/snap48.png">  
+</p>
+
